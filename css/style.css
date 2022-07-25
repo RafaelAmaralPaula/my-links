@@ -18,7 +18,7 @@ body{
     padding: 0.2%;
 }
 
-section.boxOne{
+section.box-one{
     margin-top: 50px;
 }
 
@@ -64,18 +64,18 @@ section.boxOne{
     color: #dfdfdf;
 }
 
-.myLinks{
+.my-links{
     width: 100%;
     text-align: center;
 }
 
-.myLinks a{
+.my-links a{
     color: white;
     text-decoration: none;
    
  }
 
- .myLinks .link-a{
+ .my-links .link-a{
     position: relative;
     border-radius: 7px;
     border: 3px solid white;
@@ -84,13 +84,13 @@ section.boxOne{
     
  }
 
- .myLinks .link-a:hover{
+ .my-links .link-a:hover{
     background: white;
     color:#0077ff;
 
  }
 
- .myLinks .link-a i{
+ .my-links .link-a i{
     position: absolute;
     left: 20px;
     line-height: 1.2;
@@ -99,7 +99,7 @@ section.boxOne{
 
  }
 
- .myLinks .link-a h3{
+ .my-links .link-a h3{
     font-weight: normal;
  }
 
