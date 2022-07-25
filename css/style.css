@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: #ff4e50; 
+    background: -webkit-linear-gradient(to right, #ff4e50, #f9d423); 
+    background: linear-gradient(to right, #ff4e50, #f9d423); 
+}
+
+.center{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0.2%;
+}
+
+section.boxOne{
+    margin-top: 50px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    width: 100%;
+    max-width: 135px;
+}
+
+.logo img{
+    width: 100%;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.logo .image-logo{
+    border: 2px solid white;
+    border-radius: 50%;    
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.logo .image-logo:hover{
+    border-color: black;
+}
+
+.description{
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+
+.description h2{
+    font-weight: normal;
+}
+
+.description p{
+    color: #dfdfdf;
+}
+
+.myLinks{
+    width: 100%;
+    text-align: center;
+}
+
+.myLinks a{
+    color: white;
+    text-decoration: none;
+   
+ }
+
+ .myLinks .link-a{
+    position: relative;
+    border-radius: 7px;
+    border: 3px solid white;
+    padding: 10px;
+    margin: 17px 0;
+    
+ }
+
+ .myLinks .link-a:hover{
+    background: white;
+    color:#0077ff;
+
+ }
+
+ .myLinks .link-a i{
+    position: absolute;
+    left: 20px;
+    line-height: 1.2;
+    font-size: 23px;
+
+
+ }
+
+ .myLinks .link-a h3{
+    font-weight: normal;
+ }
+
+ .whatsapp-link{
+    position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: #25d366;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 1px 1px 2px #888;
+	z-index: 1000;
+}
+
+.whatsapp-link .fa-whatsapp {
+    margin-top: 16px;
+    color: #fff;
+}
