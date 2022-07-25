@@ -84,9 +84,28 @@ section.box-one{
     
  }
 
- .my-links .link-a:hover{
-    background: white;
-    color:#0077ff;
+.my-links .link-a:hover{
+    background-color: white;
+}
+
+ .icon-youtube:hover{
+    color:red;
+}
+
+.icon-instagram:hover{
+    color:purple;
+ }
+
+ .icon-dowloand:hover{
+    color:green;
+ }
+
+ .icon-github:hover{
+    color:black;
+ }
+
+ .icon-linkedin:hover{
+    color:blue;
 
  }
 
